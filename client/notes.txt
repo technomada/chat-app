@@ -1,4 +1,5 @@
 $ npm i -D ../toolchain/justcode
+$ npm i
 $ npx justcode init
 $ python -m http.server --directory app/build
 $ npx justcode build
