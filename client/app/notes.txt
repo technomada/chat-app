@@ -1,0 +1,6 @@
+Project Notes:
+- include webcomponents-bundle live from init.js ... anyway to do this as part of npm command?
+
+update: load config from request (instead of compiled)
+
+copy config-EXAMPLE.json to dist/config.json
