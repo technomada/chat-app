@@ -8,7 +8,7 @@
 ```sh
 $ python -m http.server --directory client/app/dist
 $ cp client/app/config-EXAMPLE.json client/app/dist/config.json
-copy webcomponents.js (from the webcomponents.js project to client/app/dist
+copy webcomponents.js (from the webcomponents.js project to client/app/dist)
 ```
 Browse: http://localhost:8000
 
