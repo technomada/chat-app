@@ -1,0 +1,32 @@
+#
+# this is the master lib to install when starign a project....
+#
+
+$ npm init
+$ npm i -D justcode  ... but for now.. path/to/justcode
+
+$ npx justcode init
+$ npx justcode build
+
+$ python -m http.server --directory app/dist
+
+------------------------------------------------
+upg: $ npx justcode start
+	- web server
+	- for now install your own http-server.
+
+upg: support for webserver/viewr
+
+upg; support for rsync project to site.
+
+upg: how to compile assest like css/images/media
+
+upg: plugin/tool to generate automatic objects from folder tree structure.
+
+upg: $ npx justcode add bob  <--- add a new...
+	[bob]
+		- class.js
+		- index.html
+		- style.css
+	(or)
+		bob-class.js (setup with bob and blank)

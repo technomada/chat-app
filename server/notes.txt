@@ -1,0 +1,7 @@
+$ npm i
+$ node server.js
+
+=======
+
+set your spaces path in the client application conifg.
+	- if running locally  'http://localhost:3000' for example

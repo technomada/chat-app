@@ -1,0 +1,54 @@
+$ npm i -D ../toolchain/justcode
+$ npx justcode init
+$ python -m http.server --directory app/build
+$ npx justcode build
+
+> http://localhost:8000
+
+edit app/src/[files]
+
+=====================
+next: scroller
+
+next: cleanup
+	- edge cases
+	
+		
+next: better layout
+
+next: better auto scroll ... don't scroll if not at bottom.
+
+next: post to github
+
+-------------
+upg: create chat component -- for easy include in other sites/projects.
+
+upg: rsync dist.
+
+upg: better mobile support.
+
+upg: sound effect options.
+
+upg: pwa/service worker/notifications.
+
+upg: animate title on message.
+
+upg: safe zones (for notches and rounds)
+
+upg: add logo to header
+
+upg: draw block graph
+
+upg: pwa
+
+upg: cross browser/platform testing
+
+upg: able to operate/post offgrid.
+
+upg: dark mode detect/option
+
+upg: better color details.
+
+upg: shift enter to add new line.
+
+upg: emoticons to svg/unicode for emoji.
