@@ -1,6 +1,6 @@
 $ npm i -D ../toolchain/justcode
 $ npm i
-$ python -m http.server --directory app/build
+$ python -m http.server --directory app/dist
 $ npx justcode build
 
 > http://localhost:8000
