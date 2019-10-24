@@ -5,6 +5,10 @@ $ npx justcode build
 
 > edit/copy app/config-EXAMPLE.json to app/dist/config.json -- required spaces server url (otherwise app will look blank)
 
+> copy webcomponents-bundle.js
+  copy webcomponents-bundle.js.map
+	(from webcomponents.js project to app/dist)
+
 > http://localhost:8000
 
 edit app/src/[files]
