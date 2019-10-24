@@ -1,5 +1,5 @@
 #
-# this is the master lib to install when starign a project....
+# this is the master lib to install when staring a project....
 #
 
 $ npm init
