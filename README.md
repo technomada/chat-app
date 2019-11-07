@@ -3,6 +3,8 @@
 ### setup
 ```sh
 $ npm i
+
+$ cp src/config-EXAMPLE.js dist/config.js   ... you may need to edit this file to match your server settings.
 ```
 
 ### build
@@ -28,6 +30,7 @@ $ cd spaces-server
 $ npm i
 $ npm start
 ```
+(be sure to set the dist/config.js file to match your backend server address)
 
 ## Using The Application
 
