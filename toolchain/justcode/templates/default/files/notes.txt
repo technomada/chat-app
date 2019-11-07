@@ -1,2 +1,0 @@
-Project Notes:
-- include webcomponents-bundle live from init.js ... anyway to do this as part of npm command?

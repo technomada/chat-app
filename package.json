@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ICS",
+  "dependencies": {
+    "@q9adam/spaces-client": "^1.0.1",
+    "h2js": "^1.0.1",
+    "h2js-element": "^1.0.1",
+    "h2js-input": "^1.0.2",
+    "linkifyjs": "^2.1.8",
+    "mime": "^2.4.4",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.3.0"
+  }
+}

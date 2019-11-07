@@ -1,16 +1,44 @@
-# chat-app
+## client application
 
-#### INDEX
-* client -- web app client (tested in chrome desktop/android and safari iOS)
-* server -- spaces server (simple in memory nodejs/express communication server process)
-* toolchain -- justcode. compiles client project using webpack.
+### setup
+$ npm i
 
-```sh
-$ python -m http.server --directory client/app/dist
-$ cp client/app/config-EXAMPLE.json client/app/dist/config.json
-copy webcomponents.js (from the webcomponents.js project to client/app/dist)
-```
-Browse: http://localhost:8000
+### build
+$ npx h2js build
 
--------------
-v2019.10.23
+### run
+$ python -m http.server --directory ./dist   (or your fav local http server)
+browse to: http://localhost:8000
+
+## backend server
+
+This application uses a "spaces server" to sync messages.
+
+### install server
+$ git clone https://github.com/technomada/spaces-server.git
+
+$ cd spaces-server
+$ npm i
+$ npm start
+
+
+## Using the chat
+
+Open the chat in a browser, click the bottom of the page, type a message and press enter to send.
+
+On a seprate device a or different browser on the same device open the chat and do the same.
+
+### media
+The chat system supports the display of media.
+
+#### images
+paste images urls
+
+### audio
+paste audio urls
+
+### video
+paste video file urls
+
+### youtube
+paste youtube page urls.
