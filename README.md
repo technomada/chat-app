@@ -2,6 +2,10 @@
 
 ### setup
 ```sh
+$ git clone https://github.com/technomada/chat-app.git
+
+$ cd chat-app
+
 $ npm i
 
 $ cp src/config-EXAMPLE.js dist/config.js   ... you may need to edit this file to match your server settings.
