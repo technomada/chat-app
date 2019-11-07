@@ -1,13 +1,19 @@
 ## client application
 
 ### setup
+```sh
 $ npm i
+```
 
 ### build
+```sh
 $ npx h2js build
+```
 
 ### run
+```sh
 $ python -m http.server --directory ./dist   (or your fav local http server)
+```
 browse to: http://localhost:8000
 
 ## backend server
@@ -15,12 +21,13 @@ browse to: http://localhost:8000
 This application uses a "spaces server" to sync messages.
 
 ### install server
+```sh
 $ git clone https://github.com/technomada/spaces-server.git
 
 $ cd spaces-server
 $ npm i
 $ npm start
-
+```
 
 ## Using the chat
 
@@ -34,11 +41,11 @@ The chat system supports the display of media.
 #### images
 paste images urls
 
-### audio
+#### audio
 paste audio urls
 
-### video
+#### video
 paste video file urls
 
-### youtube
+#### youtube
 paste youtube page urls.
