@@ -1,4 +1,4 @@
-## client application
+## Client Application
 
 ### setup
 ```sh
@@ -16,7 +16,7 @@ $ python -m http.server --directory ./dist   (or your fav local http server)
 ```
 browse to: http://localhost:8000
 
-## backend server
+## Backend Server
 
 This application uses a "spaces server" to sync messages.
 
@@ -29,7 +29,7 @@ $ npm i
 $ npm start
 ```
 
-## Using the chat
+## Using The Application
 
 Open the chat in a browser, click the bottom of the page, type a message and press enter to send.
 
