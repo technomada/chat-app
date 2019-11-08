@@ -47,16 +47,20 @@ The chat system supports the display of media.
 
 #### images
 paste images urls
+
 eg https://duckduckgo.com/assets/about/hiker.svg
 
 #### audio
 paste audio urls
+
 eg https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Lobo_Loco/Good_Old_Organ_Ice/Lobo_Loco_-_04_-_Childhood_Time_-_Long_ID_1021.mp3
 
 #### video
 paste video file urls
+
 eg https://github.com/SPBTV/video_av1_samples/blob/master/spbtv_sample_bipbop_av1_960x540_25fps.mp4
 
 #### youtube
 paste youtube page urls.
+
 eg https://www.youtube.com/watch?v=rDjrOaoHz9s
