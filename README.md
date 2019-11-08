@@ -15,7 +15,7 @@ $ cd chat-app
 
 $ npm i
 
-$ cp src/config-EXAMPLE.js dist/config.js   ... edit this file to match your server settings.
+$ cp config-EXAMPLE.js dist/config.js   ... you'll edit this file to match your server settings.
 ```
 
 ### build
@@ -53,6 +53,9 @@ $ npm start
 Open the chat in a browser, click the bottom of the page, type a message and press enter to send.
 
 On a separate device or different browser on the same device open the chat and do the same.
+
+### change chat space
+click the gear icon in the bottom right, change the room id, click the gear again to close the settings section.
 
 ### media
 The chat system supports the display of media.
