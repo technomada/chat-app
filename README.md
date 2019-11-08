@@ -42,6 +42,10 @@ $ git clone https://github.com/technomada/spaces-server.git
 
 $ cd spaces-server
 $ npm i
+```
+
+### run server
+```sh
 $ npm start
 ```
 (be sure to set the dist/config.js file to match your backend server address)
