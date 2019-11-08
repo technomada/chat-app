@@ -1,8 +1,8 @@
 This project demonstrates a simple two party chat web application.
 
 #### Setup requires two parts.
-- a client application
-- and the server service
+- a [client](#client-application) application
+- and the [server](#backend-server) service
 
 
 ## Client Application
