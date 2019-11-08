@@ -27,7 +27,7 @@ $ npx h2js build
 ```sh
 $ python -m http.server --directory ./dist   (or your fav local http server)
 ```
-browse to: http://localhost:8000
+Browse to: http://localhost:8000
 
 
 
@@ -50,12 +50,12 @@ $ npm start
 
 ![Application Screenshot](media/screenshot-200.png)
 
-Open the chat in a browser, click the bottom of the page, type a message and press enter to send.
+Session A: Open the chat in a browser, click the bottom of the page, type a message and press enter to send.
 
-On a separate device or different browser on the same device open the chat and do the same.
+Session B: On a separate device or different browser on the same device open the chat and do the same.
 
 ### change chat space
-click the gear icon in the bottom right, change the room id, click the gear again to close the settings section.
+Click the gear icon in the bottom right, change the room id, click the gear again to close the settings section.
 
 ### media
 The chat system supports the display of media.
@@ -83,8 +83,8 @@ eg https://www.youtube.com/watch?v=rDjrOaoHz9s
 #### urls
 eg try https://duckduckgo.com search engine.
 
-## Distrubution
-copy the contents of dist/* to a live server.
+## Distribution
+Copy the contents of dist/* to a live server.
 
 ## Bonus
-add a message sound (when away from the page) create a message.mp3 audio file in the dist folder.
+Add a message sound (when away from the page) create a message.mp3 audio file in the dist folder.
