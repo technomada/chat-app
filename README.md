@@ -2,16 +2,16 @@ UpChat is a vanillajs code centric, browser as a platform, instant messaging cli
 
 Featuring
 
-    - vanillajs code centric
-    - simple thin framework
-    - webpack compiled
-    - messaging server
+- vanillajs code centric
+- simple thin framework
+- webpack compiled
+- messaging server
 
-    - multiple chat rooms
-    - media and link urls (image, audio, video, youtube)
-    - visual and audio alerts when focused away from tab
-    - mobile and desktop friendly
-    - supports multiple tabs
+- multiple chat rooms
+- media and link urls (image, audio, video, youtube)
+- visual and audio alerts when focused away from tab
+- mobile and desktop friendly
+- supports multiple tabs
 
 #### Setup requires two parts.
 - a [client](#client-application) application
