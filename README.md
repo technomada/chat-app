@@ -108,8 +108,8 @@ Copy the contents of dist/* to a live server.
 Add a message sound (when away from the page) create a message.mp3 audio file in the dist folder.
 
 # Help/Next/TODO
-* security
-* data cycle cleaning
-* review/test (iphone, edge, firefox, mobile/desktop, etc)
-* favicon
-* serviceworker/offline sync/push notification
+* Security / End to End Zero-Knowledge Encryption
+* Data cycle cleaning
+* Review/test (iphone, edge, firefox, mobile/desktop, etc)
+* Favicon
+* Serviceworker/offline sync/push notification
