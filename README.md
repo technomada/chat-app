@@ -79,3 +79,9 @@ eg https://www.youtube.com/watch?v=rDjrOaoHz9s
 
 #### urls
 eg try https://duckduckgo.com search engine.
+
+## Distrubution
+copy the contents of dist/* to a live server.
+
+## Bonus
+add a message sound (when away from the page) create a message.mp3 audio file in the dist folder.
