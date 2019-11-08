@@ -48,7 +48,7 @@ $ npm start
 
 ## Using The Application
 
-![Application Screenshot](/media/screenshot.png)
+![Application Screenshot](/media/screenshot-400.png)
 
 Open the chat in a browser, click the bottom of the page, type a message and press enter to send.
 
@@ -76,3 +76,6 @@ eg https://github.com/SPBTV/video_av1_samples/blob/master/spbtv_sample_bipbop_av
 paste youtube page urls.
 
 eg https://www.youtube.com/watch?v=rDjrOaoHz9s
+
+#### urls
+eg try https://duckduckgo.com search engine.
