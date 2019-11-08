@@ -1,3 +1,10 @@
+This project demonstrates a simple two party chat application.
+
+#### Setup requires two parts.
+- a client application
+- and the server service
+
+
 ## Client Application
 
 ### setup
@@ -21,6 +28,9 @@ $ npx h2js build
 $ python -m http.server --directory ./dist   (or your fav local http server)
 ```
 browse to: http://localhost:8000
+
+
+
 
 ## Backend Server
 
