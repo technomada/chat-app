@@ -15,7 +15,7 @@ $ cd chat-app
 
 $ npm i
 
-$ cp src/config-EXAMPLE.js dist/config.js   ... you may need to edit this file to match your server settings.
+$ cp src/config-EXAMPLE.js dist/config.js   ... edit this file to match your server settings.
 ```
 
 ### build
