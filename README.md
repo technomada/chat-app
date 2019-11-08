@@ -48,6 +48,8 @@ $ npm start
 
 ## Using The Application
 
+![Application Screenshot](/media/screenshot.png)
+
 Open the chat in a browser, click the bottom of the page, type a message and press enter to send.
 
 On a separate device or different browser on the same device open the chat and do the same.
