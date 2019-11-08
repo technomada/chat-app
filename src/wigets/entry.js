@@ -149,25 +149,32 @@ class Element extends ElementClass {
 		//-----------------------
 
 		//console.log(text,opts)
-
-		let d = this.shadow.querySelector('.'+name)
-		let dc = d.querySelector('.content')
-
-		dc.textContent = text // note: security. upg: process urls
-		dc.innerHTML = linkifyHtml(dc.textContent,{format,tagName})
-
-		let i = dc.querySelector('img')
-		if(i){
-			console.log('i',i)
-			i.onload = e=>{
-				opts.onload(i)
-				i.onload = null
-				}
-			}
-
 		
-		//opts.guest = Math.random() > 0.5 // debug.
-		d.classList.add(opts.guest?'guest':'owner')
+
+		this.loaded = new Promise((res,rej)=>{
+
+			let d = this.shadow.querySelector('.'+name)
+			let dc = d.querySelector('.content')
+
+			//opts.guest = Math.random() > 0.5 // debug.
+			d.classList.add(opts.guest?'guest':'owner')
+
+			dc.textContent = text // note: security. upg: process urls
+			dc.innerHTML = linkifyHtml(dc.textContent,{format,tagName})
+
+			let i = dc.querySelector('img')
+			if(i){
+				i.onload = e=>{
+					res(i)
+					opts.onload(i)
+					i.onload = null
+					}
+				}
+			else
+				res(true)
+
+			
+			})
 
 	}//func
 }//class
