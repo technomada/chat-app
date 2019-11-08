@@ -1,4 +1,16 @@
-This project demonstrates a simple two party chat web application.
+UpChat is a vanillajs code centric, browser as a platform, instant messaging client/server web application.
+
+Featuring
+    * vanillajs code centric
+    * simple thin framework
+    * webpack compiled
+    * messaging server
+
+    * multiple chat rooms
+    * media and link urls (image, audio, video, youtube)
+    * visual and audio alerts when focused away from tab
+    * mobile and desktop friendly
+    * supports multiple tabs
 
 #### Setup requires two parts.
 - a [client](#client-application) application
@@ -88,3 +100,10 @@ Copy the contents of dist/* to a live server.
 
 ## Bonus
 Add a message sound (when away from the page) create a message.mp3 audio file in the dist folder.
+
+# Help/Next/TODO
+* security
+* data cycle cleaning
+* review/test (iphone, edge, firefox, mobile/desktop, etc)
+* favicon
+* serviceworker/offline sync/push notification

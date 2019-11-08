@@ -1,0 +1,15 @@
+EXTERNAL RESOURCES
+    "mime" -- content types
+    "uuid" -- unique ids
+    "@webcomponents/webcomponentsjs" -- component polyfill
+    "linkifyjs" -- convert urls in text
+    "ionicons" -- icons library
+    "zapsplat" -- sound fxs
+
+
+INTERNAL RESOURCES
+    "spaces-server" -- msg server
+    "@q9adam/spaces-client" -- msg server client
+    "h2js/h2js-init" -- setup/build application
+    "h2js-element" -- simple custom element wrapper
+    "h2js-input" -- input element
