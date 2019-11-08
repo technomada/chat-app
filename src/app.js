@@ -87,6 +87,7 @@ class App extends ElementClass {
 			}
 
 		let root = this.shadow.querySelector('.'+name)
+		let scroller = root.querySelector('.content-container')
 
 		if(!localStorage.bid){
 			localStorage.bid = rand() 
@@ -96,18 +97,18 @@ class App extends ElementClass {
 		console.log({myBID})
 
 		const use = m=>{
-			//var r = await sc.put(this.space,JSON.stringify(m))
+			let {scrollTop,clientHeight,clientTop,scrollHeight} = scroller 
+			let hh = scrollTop+clientHeight
 
-			console.log('use',m)
-
-			//let d = new EntryClass(n.value,{guest:n.from != myBID})
-			//appendChild(d.element)
-
+			let readyScroll = (hh == scrollHeight)
 
 			let {from,mid,value,type} = m
 			if(type && type == 'message' && !messages[mid]){
 				let e = new EntryClass(value,{guest:from!=myBID})
 				root.querySelector('.content').appendChild(e.element)
+				
+				if(readyScroll)
+					scroller.scroll({behavior:'smooth',top:scroller.scrollHeight})
 				messages[mid] = {
 					org: m,
 					utime: Date.now()

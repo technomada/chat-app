@@ -131,6 +131,8 @@ class Element extends ElementClass {
 	
 				.${name} img {background: #fff; max-width: 100%; max-height: 100%; border-radius: 3px;}
 
+				.${name} video {max-width: 100%; max-height: 100%;}
+				.${name} audio {max-width: 100%; max-height: 100%;}
 				.${name} a {text-decoration: none; font-weight: 1000; color: unset;}
 
 			</style>
