@@ -6,7 +6,7 @@ UpChat is a vanillajs code centric, browser as a platform, instant messaging cli
 - Visual and audio alerts (eg when focused away from tab)
 - Mobile and desktop friendly
 - Supports multiple tabs
-- End-to-End Zero-knowledge encrypton (optional)
+- End-to-End Zero-knowledge encryption (optional)
 
 #### Design
 - Vanillajs code centric
@@ -74,7 +74,7 @@ Session A: Open the chat in a browser, click the bottom of the page, type a mess
 Session B: On a separate device or different browser on the same device open the chat and do the same.
 
 ### change chat space
-Click the gear icon in the bottom right, change the room id, click the gear again to close the settings section.
+Click the gear icon in the bottom right, change the room id, click the gear again to close the settings section.  Note: participants must be set to the same room id in order to exchange messages.
 
 ### media
 The chat system supports the display of media.
@@ -92,12 +92,12 @@ eg https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_cura
 #### video
 paste video file urls
 
-eg https://github.com/SPBTV/video_av1_samples/blob/master/spbtv_sample_bipbop_av1_960x540_25fps.mp4
+eg http://giphygifs.s3.amazonaws.com/media/n988gduPMFC8w/giphy.mp4 
 
 #### youtube
 paste youtube page urls.
 
-eg https://www.youtube.com/watch?v=rDjrOaoHz9s
+eg https://www.youtube.com/watch?v=jNQXAC9IVRw
 
 #### urls
 eg try https://duckduckgo.com search engine.
