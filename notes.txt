@@ -1,0 +1,17 @@
+next: ui adjustments -- body main scroll section?
+
+next: crypto option
+
+upg: peer to peer file transfer
+
+upg: audio/video option ... 
+
+upg: share screen option? or?
+
+upg: screenshot posting
+
+upg: image posting (from camera or files)
+
+> webrtc -- no turn? .. then support packet service option. (or ice/stun/turn config)
+
+> sign to prove entity.

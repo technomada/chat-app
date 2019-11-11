@@ -1,17 +1,18 @@
 UpChat is a vanillajs code centric, browser as a platform, instant messaging client/server web application.
 
 #### Featuring
-- multiple chat rooms
-- media and link urls (image, audio, video, youtube)
-- visual and audio alerts when focused away from tab
-- mobile and desktop friendly
-- supports multiple tabs
+- Multiple chat rooms
+- Media and link urls (image, audio, video, youtube)
+- Visual and audio alerts (eg when focused away from tab)
+- Mobile and desktop friendly
+- Supports multiple tabs
+- End-to-End Zero-knowledge encrypton (optional)
 
 #### Design
-- vanillajs code centric
-- simple thin framework
-- webpack compiled
-- messaging server
+- Vanillajs code centric
+- Simple thin framework
+- Webpack compiled
+- Messaging server
 
 
 #### Setup requires two parts.
@@ -107,6 +108,9 @@ Copy the contents of dist/* to a live server.
 ## Bonus
 Add a message sound (when away from the page) create a message.mp3 audio file in the dist folder.
 
+## Encryption (optional)
+ECDH/AES-GCM
+
 # Help/Next/TODO
 * UI/Jank improvements iOS
 * Security / End to End Zero-Knowledge Encryption
@@ -114,3 +118,4 @@ Add a message sound (when away from the page) create a message.mp3 audio file in
 * Review/test (iphone, edge, firefox, mobile/desktop, etc)
 * Favicon
 * Serviceworker/offline sync/push notification
+
